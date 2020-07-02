@@ -1,0 +1,83 @@
+.personal {
+	padding: 40px;
+	width: 60%;
+	margin:30px auto;
+}
+.personal h1 {
+	color: #6499cd;
+	text-align: center;
+}
+.income-form {
+	min-height: 250px;
+	padding: 20px;
+	border-radius: 10px;
+}
+.expense-form {
+	min-height: 250px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#submit-btn {
+	width: 100%;
+}
+#calculate {
+	width: 100%;
+}
+.results {
+	width: 100%;
+	margin:30px auto;
+}
+.income-expense ul {
+	list-style: none;
+	background: #ccc;
+	border-radius: 10px;
+}
+.income-expense ul li {
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+}
+.income-expense .income {
+	color: mediumseagreen;
+}
+.income-expense .expenses {
+	color: red;
+}
+.create-pdf {
+	margin-top: 50px;
+}
+
+/*DISPLAY STYLES*/
+.results {
+	padding: 20px;
+}
+span {
+	color: red;
+	text-align: right;
+	font-size: 12px;
+}
+.income_source {
+	border: 1px solid #6499cd;
+	padding: 7px;
+	margin:5px;
+	color: mediumseagreen;
+}
+.expenses_div {
+	border: 1px solid #6499cd;
+	padding: 7px;
+	margin:5px;
+	color:tomato;
+}
+
+@media(max-width: 768px) {
+	.personal {
+		width: 100%;
+		padding: 10px;
+	}
+	form {
+		width: 100%;
+	}
+	.results {
+		width: 100%;
+	}
+}
